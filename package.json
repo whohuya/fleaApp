@@ -1,0 +1,41 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "node scripts/custom-rn-theme && expo start",
+    "android": "node scripts/custom-rn-theme && expo start --android",
+    "ios": "node scripts/custom-rn-theme && expo start --ios",
+    "eject": "node scripts/custom-rn-theme && expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "address": "^1.0.3",
+    "antd-mobile-rn": "^2.3.0",
+    "bluebird": "^3.5.2",
+    "dva-core": "^1.4.0",
+    "expo": "^31.0.2",
+    "ip": "^1.1.5",
+    "leancloud-realtime": "^4.2.0",
+    "leancloud-storage": "^3.10.0",
+    "moment": "^2.22.2",
+    "public-ip": "^2.4.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
+    "react-native-device-info": "^0.24.3",
+    "react-native-network-info": "^4.0.0",
+    "react-native-public-ip": "^1.0.1",
+    "react-navigation": "^2.18.2",
+    "react-navigation-redux-helpers": "^2.0.8",
+    "react-navigation-tabs": "^0.8.4",
+    "react-redux": "^5.1.0",
+    "redux-persist": "^5.10.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "jest-expo": "^31.0.0"
+  },
+  "private": true
+}

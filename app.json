@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "智慧光猫管理",
+    "description": "智慧光猫管理(开发版)",
+    "slug": "smartONU-app",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "2.0.6",
+    "primaryColor": "#00BCD4",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 3
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.limpidt.onu",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan barcodes on event tickets."
+      }
+    },
+    "android": {
+      "package": "com.limpidt.onu"
+    }
+  }
+}
